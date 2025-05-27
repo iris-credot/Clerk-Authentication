@@ -22,7 +22,7 @@ export default async function RecipePage({ params }: { params: { slug: string } 
     <main className="min-h-screen bg-gray-100 pb-16">
       <div className="max-w-4xl mx-auto px-4 py-8">
         <Link
-          href="/"
+          href="/recipe"
           className="inline-block mb-6 bg-teal-900 text-white hover:bg-teal-600 font-bold py-2 px-4 rounded-md transition-colors duration-200"
         >
           ← Back Home
